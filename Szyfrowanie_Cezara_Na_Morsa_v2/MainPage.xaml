@@ -4,19 +4,19 @@
              x:Class="Szyfrowanie_Cezara_Na_Morsa_v2.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
+    <VerticalStackLayout
         Padding="30,0"
         Spacing="25">
 
-            <Label Text="Wprowadź tekst lub kod Morse’a:"/>
-            <Entry x:Name="entry" Placeholder="Np. ALA lub .- .-.. .-"/>
+        <Label Text="Wprowadź tekst lub kod Morse’a:"/>
+        <Entry x:Name="entry" Placeholder="Np. Nicola lub .- .-.. .-"/>
 
-            <Button Text="Przetłumacz" Clicked="Button_Clicked"/>
+        <Button Text="Przetłumacz" Clicked="Button_Clicked"/>
 
-            <Label Text="Wynik (możesz skopiować):"/>
-            <Entry x:Name="resultEntry" IsReadOnly="True" Placeholder="Tutaj pojawi się wynik"/>
+        <Label Text="Wynik (możesz skopiować):"/>
+        <Entry x:Name="resultEntry" IsReadOnly="True" Placeholder="Tutaj pojawi się wynik"/>
 
-        </VerticalStackLayout>
-    </ScrollView>
+    </VerticalStackLayout>
+</ScrollView>
 
 </ContentPage>
