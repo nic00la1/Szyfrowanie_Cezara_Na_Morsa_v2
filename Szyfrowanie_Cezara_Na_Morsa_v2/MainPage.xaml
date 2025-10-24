@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Szyfrowanie_Cezara_Na_Morsa_v2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25">
+
+            <Label Text="Wprowadź tekst lub kod Morse’a:"/>
+            <Entry x:Name="entry" Placeholder="Np. ALA lub .- .-.. .-"/>
+
+            <Button Text="Przetłumacz" Clicked="Button_Clicked"/>
+
+            <Label Text="Wynik (możesz skopiować):"/>
+            <Entry x:Name="resultEntry" IsReadOnly="True" Placeholder="Tutaj pojawi się wynik"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

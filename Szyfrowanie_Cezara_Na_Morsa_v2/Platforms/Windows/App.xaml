@@ -1,0 +1,8 @@
+﻿<maui:MauiWinUIApplication
+    x:Class="Szyfrowanie_Cezara_Na_Morsa_v2.WinUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:maui="using:Microsoft.Maui"
+    xmlns:local="using:Szyfrowanie_Cezara_Na_Morsa_v2.WinUI">
+
+</maui:MauiWinUIApplication>

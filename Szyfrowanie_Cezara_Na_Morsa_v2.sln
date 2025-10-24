@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szyfrowanie_Cezara_Na_Morsa_v2", "Szyfrowanie_Cezara_Na_Morsa_v2\Szyfrowanie_Cezara_Na_Morsa_v2.csproj", "{55CC8127-A371-4EDA-80EB-FC449E4F7FD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55CC8127-A371-4EDA-80EB-FC449E4F7FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CC8127-A371-4EDA-80EB-FC449E4F7FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CC8127-A371-4EDA-80EB-FC449E4F7FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CC8127-A371-4EDA-80EB-FC449E4F7FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55594067-DB02-4A43-B8FA-C38390BF026B}
+	EndGlobalSection
+EndGlobal
